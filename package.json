@@ -1,12 +1,13 @@
 {
   "name": "react-redux-tutorial",
   "version": "1.0.0",
+  "homepage": "https://novoio.github.io/react-redux-tutorial",
   "description": "> A simple and quick demonstration of React-Redux usage",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
